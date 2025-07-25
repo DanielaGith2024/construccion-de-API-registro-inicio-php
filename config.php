@@ -2,7 +2,7 @@
 $host = "localhost";
 $dbname = "auth_db";
 $user = "root";
-$pass = "dani.MySql.123"; // o tu contraseña real
+$pass = ""; // o tu contraseña real
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $user, $pass);
